@@ -1,3 +1,5 @@
+<%@ page errorPage="errorPage.jsp" %>
+
 <html>
   <head>
     <title>Web & Mobile 2, Arithmetics.</title>
