@@ -1,3 +1,3 @@
 # wm2_course_notes
 
-Prepare for change...
+Emin Aliyev
