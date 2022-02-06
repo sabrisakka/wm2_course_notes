@@ -1,3 +1,4 @@
+<%@ page errorPage="errorPage.jsp"%>
 <html>
   <head>
     <title>Web & Mobile 2, Arithmetics.</title>
@@ -10,6 +11,7 @@
 		
 		out.print(x + " + " + y + " = " + z);
 	
+		out.println("<br>");
 		z = x / y;
 		
 		out.print(x + " / " + y + " = " + z);
