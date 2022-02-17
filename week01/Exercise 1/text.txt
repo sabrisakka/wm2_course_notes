@@ -1,0 +1,1 @@
+Exercise 1 gives me an error, so at least I will commit my folder in my local branch
