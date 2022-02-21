@@ -18,22 +18,20 @@ public class MainServlet extends HttpServlet{
 	}
 
 	public void doPost(HttpServletRequest req, HttpServletResponse res){
-		/*try{
+		try{
 
 			PrintWriter pw = res.getWriter();
-
-
-
+			
 			pw.write("<html><body>Welcome!</body></html>");
 
 		}catch(IOException ex){
 
 			System.out.println(ex);
 
-		}*/
+		}
 
 		//admin: admin
-		String username = req.getParameter("username");
+		/*String username = req.getParameter("username");
 		String password = req.getParameter("password");
 
 		if("admin".equals(username) && "admin".equals(password)){
@@ -59,6 +57,6 @@ public class MainServlet extends HttpServlet{
 			}catch(Exception ex){
 				System.out.println("Forward failed: " + ex);
 			}
-		}
+		}*/
 	}
 }
