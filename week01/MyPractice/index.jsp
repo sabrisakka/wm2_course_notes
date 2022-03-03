@@ -1,5 +1,5 @@
 <%@ page import = "java.util.*" %>
-
+<%@ page errorPage= "error_page.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,10 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
 </head>
-
-<body >
+<%-- BruhhurB --%>
+<body class="main-body">
 
 <style>
+.main-body {
+    background-color:lightgreen;
+}
 .greeter {
     padding-top: 220px;
     font-size: 3rem;
@@ -33,6 +36,10 @@
     else {
         out.print("Good Evening");
     }
+
+    String userName = request.getParameter("name");
+    if (userName==null) out.print(" Dear User!");
+    else out.print(" " + userName + "!");
 %>
 </div>
 </body>
