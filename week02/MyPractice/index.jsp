@@ -1,5 +1,4 @@
 <%@ page import = "java.util.*" %>
-<%@ page import = "java.util.*" %>
 <%@ page errorPage= "error_page.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
